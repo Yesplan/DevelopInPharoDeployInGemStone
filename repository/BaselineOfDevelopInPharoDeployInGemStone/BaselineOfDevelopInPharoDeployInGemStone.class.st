@@ -1,6 +1,6 @@
 Class {
 	#name : #BaselineOfDevelopInPharoDeployInGemStone,
-	#superclass : #Object,
+	#superclass : #BaselineOf,
 	#category : #BaselineOfDevelopInPharoDeployInGemStone
 }
 

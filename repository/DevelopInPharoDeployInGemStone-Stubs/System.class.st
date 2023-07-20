@@ -1,8 +1,19 @@
+"
+I am a stub for GemStone's System class
+"
 Class {
 	#name : #System,
 	#superclass : #Object,
 	#category : #'DevelopInPharoDeployInGemStone-Stubs'
 }
+
+{ #category : #transactions }
+System class >> abortTransaction [
+]
+
+{ #category : #locks }
+System class >> addToCommitOrAbortReleaseLocksSet: aSet [
+]
 
 { #category : #transactions }
 System class >> commitTransaction [
@@ -11,4 +22,8 @@ System class >> commitTransaction [
 { #category : #private }
 System class >> enableAlmostOutOfMemoryError [
 	"See AlmostOutMemory in GemStone"
+]
+
+{ #category : #locks }
+System class >> readLock: anObject ifDenied: deniedBlock ifChanged: changedBlock [
 ]

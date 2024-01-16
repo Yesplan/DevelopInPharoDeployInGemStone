@@ -19,6 +19,10 @@ System class >> addToCommitOrAbortReleaseLocksSet: aSet [
 System class >> commitTransaction [
 ]
 
+{ #category : #transactions }
+System class >> conflictReportString [
+]
+
 { #category : #private }
 System class >> enableAlmostOutOfMemoryError [
 	"See AlmostOutMemory in GemStone"
